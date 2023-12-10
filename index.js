@@ -1,3 +1,4 @@
+$(document).ready(function(){
 const scoreElement = $('#scoreElement');
 const canvas = $('#myCanvas')[0];
 const context = canvas.getContext('2d');
@@ -514,4 +515,5 @@ $(document).on('keyup', function(event) {
         case ' ':
             break;
     }
+});
 });
